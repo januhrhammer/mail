@@ -12,10 +12,7 @@ document.addEventListener("DOMContentLoaded", function () {
   document.querySelector("#compose").addEventListener("click", compose_email);
   document
     .querySelector("#compose-form")
-    .addEventListener("submit", (event) => {
-      event.preventDefault();
-      send_email();
-    });
+    .addEventListener("submit", send_email);
 
   // By default, load the inbox
   load_mailbox("inbox");
