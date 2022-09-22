@@ -4,6 +4,7 @@
 
 - POST Request: sende recipients, subject und body
 - Nach dem Senden: Lade "sent" Box
+### DONE
 
 ## Mailbox:
 
